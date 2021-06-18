@@ -1,9 +1,32 @@
-# scrapped-node-js
+# C#
 
-Web Scrapping using node js
+## Starting C# on VSCODE
 
-npm install
+```shell
+dotnet new console
+```
 
-npm start
+C# programming lang
 
-Scrapps a demo site
+.NET framework for building apps n windows
+
+## .NET
+
+- CLR (common language runtime)
+- class library
+
+## CLR
+
+bytecode
+intermediate language code
+
+native code
+
+does just in time  compilation - allows to work on various machine architecture
+
+## Architecture of .NET
+
+Namespace = container of related classes
+Assemby = container of related namespaces (DLL or EXE)
+
+
