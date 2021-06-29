@@ -53,3 +53,61 @@ hungarian notation()
 
 local variables - camelcase
 contsants - pascal case
+
+
+Comments should not explain the code: just how, why and when
+
+## Classes
+
+are building blocks of applications, combining related functions and vairables.
+
+```csharp
+public class Person
+{
+    // class contain variables
+    public string Name;
+    // class contain methods
+    public void Introduce()
+    {
+        Console.WriteLine("Hi my name is" + Name);
+    }
+}
+
+public class Calculator
+{
+    public int Add(int a, int b)
+    {
+        return a + b;
+    }
+}
+```
+
+## STatic modifier
+
+cannot be accessed by obects
+
+## structs
+
+similar to class but different
+ use when designing small light weight objects
+
+## Arrays
+
+array - store collection of variables of the same type
+arrays have a fixed size, specify during declaration, cannot be changed, use new operator to assign memory
+
+```csharp
+// declaring array of 3 datas
+int[] numbers = new int[3]
+numbers[0] = 1;
+numbers[1] = 2;
+numbers[2] = 3;
+
+// method 2 of declaration
+int[] numbers = new int[3] {1, 2, 3};
+```
+
+## String
+
+sequence of characters in double quotes
+strings are immutable
